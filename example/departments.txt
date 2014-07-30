@@ -1,0 +1,4 @@
+Department,     Floor
+
+Sales,          D
+Shipping,       A   

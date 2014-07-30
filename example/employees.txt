@@ -1,0 +1,6 @@
+First,      Last,       Department,     Phone
+
+John,       Smith,      Sales,          23032
+Tatiana,    Travers,    Sales,          23033
+Robert,     Garcia,     Shipping,       23043
+Helena,     Johnson,    Sales,          23830
