@@ -9,7 +9,7 @@ Check out import.py in the example directory or read the
 documentation below. (The example is probably easier to understand)
 
 
-*Copyright (C) 2014, ETH Zurich - Swiss Seismological Service SED*
+*Copyright (C) 2014, ETH Zurich*
 
 
 Import Specification
