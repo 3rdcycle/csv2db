@@ -1,6 +1,6 @@
 
-csv2db module
-*************
+csv2db
+******
 
 **csv2db** helps with importing values from one or more csv files into a
 relational database.
