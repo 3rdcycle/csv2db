@@ -163,19 +163,21 @@ class CsvImporter(object):
         Import one single row and return the resulting DbRecord objects
 
         """
-        records = {}
+        records = []
+        xref_map = {}
         for (table, instance, spec) in self.specs:
             if spec.condition(row) is False:
                 continue
             # Create record and import attributes according to spec
             record = DbRecord(table, row_id)
-            record.import_attributes(spec.attr_map, records, row)
+            record.import_attributes(spec.attr_map, xref_map, row)
+            records.append(record)
             # Keep a reference to each record instance that we create for
             # resolving XReferences in later instances
             instance_path = (table, instance)
-            records[instance_path] = record
+            xref_map[instance_path] = record
 
-        return records.values()
+        return records
 
 
 class RecordSpec(object):
