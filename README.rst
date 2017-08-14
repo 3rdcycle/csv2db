@@ -8,7 +8,7 @@ relational database.
 Check out import.py in the example directory or read the
 documentation below. (The example is probably easier to understand)
 
-.. image:: /doc/csv2db.png?raw=true
+.. image:: /doc/concept.png?raw=true
 
 
 *Copyright (C) 2014, ETH Zurich*
